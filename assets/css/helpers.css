@@ -17,44 +17,19 @@
 .fGrow1             {flex-grow: 1;}
 
 /********************************************
-    POSITION, TRANSITION & DISPLAY HELPERS 
- *******************************************/
-.secTrans           {transition: 0.8s;}
-.pFixed             {position: fixed;}
-.pRelative          {position: relative;}
-.pAbsolute          {position: absolute;}
-.dBlock             {display: block;}
-.dNone              {display: none;}
-
-/********************************************
         UTILITY | Customize text  
  *******************************************/
 .txtWhite           {color: white;}
-.txtGrey            {color: var(--primColor);}
-.txtBlue            {color: var(--primColor);}
+.txtGreen           {color: var(--green);}
+.txtRed             {color: var(--red);}
 .txtBlack           {color: black;}
-.txtRed             {color: red;}
 .txtSmall           {font-size: small;}
 .txtUnderline       {text-decoration: underline;}
 .txtItalic          {font-style: italic;}
 .txtAlignCtr        {text-align: center;}
 .txtAlignRight      {text-align: right;}
 .txtVertAlignMid    {vertical-align: middle;}
-
-/********************************************
-        GENERIC UTILITIES 
- *******************************************/
-.cPointer           {cursor: pointer;}
 .listStyleNone      {list-style-type: none;}
-.visHidden          {visibility: hidden;}
-.boxShadow          {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
-.bgLightBlue        {background-color: var(--primColor);}
-.bgLightGrey        {background-color: var(--primColor);}
-.bgGrey             {background-color: var(--primColor);}
-.bgDarkGrey         {background-color: var(--primColor);}
-.bgGreen            {background-color: var(--primColor);}
-.bgTeal             {background-color: var(--primColor);}
-.bgWhite            {background-color: white;}
 
 /********************************************
     UTILITY | Width, Padding, Border, Margin 
@@ -66,26 +41,15 @@
 .wid60Perc          {width: 60%;}
 .wid50Perc          {width: 50%;}
 .wid10Perc          {width: 10%;}
-.pad2rem            {padding: 2rem;}
+.pad2rem            {padding: 2rem 5rem;}
 .pad1rem            {padding: 1rem;}
 .pad05em            {padding: .5em;}
-.marginTopBot       {margin: .2rem 0;}
+.marginTopBot       {margin: .8rem 0;}
 .marginLat05em      {margin: 0 .5em;}
 .marginLat1em       {margin: 0 1em;}
-.border             {border: 1px solid var(--primColor);}
+.border             {border: 1px solid var(--blue);}
 .borderRadius       {border-radius: 4px;}
 .borderRadius05     {border-radius: .5rem;}
 .borderRadius50     {border-radius: 50%;}
 .borderBottom       {border-bottom: 0.5px solid grey;}
 .boxCtr             {margin: 0 auto; max-width: 57.5rem;} /* 920px su 1536px */
-
-/********************************************
-        UTILITY | hover 
- *******************************************/
-.fontBigHov:hover        {font-size: 18px;}
-.boxShadowHov:hover      {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
-.txtUnderHov:hover       {text-decoration: underline;}
-.changeColGreyHov:hover  {color: var(--primColor);}
-.changeColTealHov:hover  {color: var(--primColor);}
-.changeBackTealHov:hover {background-color: var(--primColor); color: white;}
-.txtUnderUpperHov:hover  {text-decoration: underline; text-transform: uppercase;}

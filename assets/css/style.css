@@ -1,6 +1,9 @@
 /******** ROOT STYLE ********/
 :root {
-    --primColor: #FFFFFF;
+    --pink: #FEDDD5;
+    --red: #FF6863;
+    --green: #869F76;
+    --blue: #246D82;
 }
 
 /******** RESET STYLE ********/
@@ -12,21 +15,10 @@
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: grey;
-}
-
-img {
-    max-width: 100%;
-}
-
 /******** GENERAL STYLE ********/
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(34, 28, 33);
+    color: antiquewhite;
 }
 
-/******** HEADER STYLE ********/
-/******** MAIN STYLE ********/
-/******** FOOTER STYLE ********/
-/******** ANIMATIONS ********/

@@ -16,18 +16,24 @@
     <script src="./assets/js/vue.3.2.47.js"></script>
     <!-- Script Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <title>Project</title>
+    <title>Vue Email List</title>
 </head>
 <body>
     <!-- Vue JS App -->
     <div id="app">
-        <!-- Project Main Container -->
-        <main>
-            A
+
+        <!-- Vue Email List -->
+        <main class="dFlex wid100Perc vh100 justyCtr alignCtr flexColumn gap1em">
+            <h1 class="txtGreen pad2rem">Email List</h1>
+            <ul v-show="emailList.length >= 10" class="listStyleNone border pad2rem borderRadius">
+                <li v-for="email in emailList" class="marginTopBot borderBottom"><i class="txtRed fa-regular fa-envelope fa-lg marginLat05em"></i> {{email.response}}</li>
+            </ul>
         </main>
+
     </div>
 
     <!-- Script App JS -->
     <script src="./assets/js/app.js"></script>
+
 </body>
 </html>
