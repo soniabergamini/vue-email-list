@@ -25,7 +25,7 @@
         <!-- Vue Email List -->
         <main class="dFlex wid100Perc vh100 justyCtr alignCtr flexColumn gap1em">
             <h1 class="txtGreen pad2rem">Email List</h1>
-            <ul v-show="emailList.length >= 10" class="listStyleNone border pad2rem borderRadius">
+            <ul v-if="emailList.length >= 10" class="listStyleNone border pad2rem borderRadius">
                 <li v-for="email in emailList" class="marginTopBot borderBottom"><i class="txtRed fa-regular fa-envelope fa-lg marginLat05em"></i> {{email.response}}</li>
             </ul>
         </main>
